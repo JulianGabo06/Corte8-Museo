@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navTop{
+    display: flex;
+    justify-content: right ;
+    align-items: center;
+    background-color: #373737;
+    padding: 0 24pc;
+    color: #FFFFFF;
+}
+
+.listaTopNav{
+    display: flex;
+    /* gap: 20px; */
+}
+
+.listaTopNav li{
+    padding: 10px;
+}
+
+#entradas{
+    background-color: #E7D800;
+    color: black;
+}
+#ES{
+    border: solid 1px white;
+}
+
+#entradas:hover{
+    background-color: aqua;
+}
+
+.navBottom{
+    display: flex;
+    padding: 10px 24pc;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerListas{
+    display: flex;
+}
+.centrarLista{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.listaBottomNav{
+    display: flex;
+    gap: 20px;
+}
+
+.Negrilla{
+    font-weight: bold;
+    color: #373737;
+    font-size: 19px;
+}
+
+.gris{
+    font-size: 13px;
+    color: #999999;
+}
+
+.listaBottomNav li{
+    padding: 5px 15px;
+}
+
+
+.slyder-container{
+    background-color: #f5f5f5;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 435px;
+}
+
+.slyder-card{
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+}
+
+.slyder-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+}
+
+.container-exposiciones{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px 24pc;
+}
+
+.centrar-exposiciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.tarjeta-exposiciones{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#fecha{
+    font-size: 16px;
+    color: #555555;
+}
+
+#nombre{
+    font-size: 20px;
+    color: #373737;
+    font-weight: bold;
+}
+
+#pintura{
+    font-size: 20px;
+    color: #373737;
+}
+
+#enlace-exposiciones{
+    background-color: #373737;
+    color: #FFFFFF;
+    padding: 12px 8px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.coleccion{
+    padding: 4pc 24pc;
+}
+
+.fondo{
+    height: 279px;
+    background-image: url("https://www.museoreinasofia.es/sites/default/files/ouka_leele_banner_0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+
+
